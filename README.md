@@ -1,25 +1,31 @@
-# Washington EV Market Analysis
+# **Washington EV Market Exploratory Data Analysis**
 
-## Repository Outline
+## **Repository Outline**
 This repository consists of these following files:
-- P0M1_muhammad_rafi_abhinaya.ipynb - Notebook documenting the analysis.
-- P0M1_muhammad_rafi_abhinaya_dataset.csv - Dataset used in analysis.
-- base_msrp.csv - EV price used for reference in data cleaning.
-- Washington_EV_Market_dashboard.twbx - Tableau Dashboard
+- [notebook.ipynb](notebook.ipynb) - Notebook documenting the analysis.
+- [washington_ev_dataset.csv](washington_ev_dataset.csv) - Dataset used in analysis.
+- [base_msrp.csv](base_msrp.csv) - EV price used for reference in data cleaning.
+- [Washington_EV_Market_dashboard.twbx](Washington_EV_Market_Dashboard.twbx) - Tableau dashboard file.
+- [url.txt](url.txt) - Link to dashboard.
 
-## Problem Background
-I am a data analyst of a big Electric Vehicle (EV) company. Within a one-year period, the company is planning to expand their EV sales to Washington State. This initiative will begin with an analysis of the EV market in the region to formulate an effective and targeted sales and expansion strategy. As the data analyst, I am tasked to conduct analysis on the Washington EV market to uncover key insights.
+## **Background**
+Electric Vehicles (EV) are taking over the otomotive industry, and according to various sources, The United States of America has the second biggest EV market, just behind China. One of the leading states for the EV market share in the US is the Washington State. According to [Clean Technica](https://cleantechnica.com/2025/05/14/top-us-states-for-ev-market-share-13-states-with-10-ev-share/), Washington holds the third place of the highest EV market share with 24.6%. In 2024, the Washington state EV market saw a significant increase in EV sales and registrations.
 
-## Project Output
-This project's output is an notebook documenting the analysis and an interactive dashboard in tableau.
+For EV companies, Washington State is prime target for sales and expansion. In this project, I analyzed the Washington State Electric Vehicle market to uncover insights that can help EV companies strategize their sales and expansion plan better.
 
-## Data
+
+## **Project Output**
+This project's output is a notebook documenting the analysis process starting from business understanding to giving reccomendations. Not only that, I create an interactive dashboard in tableau to help viewers understand the uncovered insights easily.
+
+## **Data**
 The data used for this analysis is from "Electric Vehicle Population Data 2024", Kaggle. This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL). The dataset was last updated in 2024, meaning the dataset highly relevant to the current time. The dataset contains 177,866 rows and 17 columns.
 
-## Method
+Dataset link: [EV Population Data](https://www.kaggle.com/datasets/utkarshx27/electric-vehicle-population-data/data).
+
+## **Method**
 I used multiple data visualizatin techniques to show the insights uncovered in the analysis, such as bar charts and choropleth chart. For the descriptive insight, I used central tendency methods and dispersion tests. I also used confidence interval to calculate a reliable price range.
 
-## Stacks
+## **Stacks**
 In the notebook, I used these following libraries to help my analysis:
 - `Pandas` - For data preparation and analysis.
 - `Numpy` - For calculations.
@@ -30,7 +36,7 @@ In the notebook, I used these following libraries to help my analysis:
 
 For creating the dashboard, I used Tableau and published it on Tableau Public.
 
-## Reference
-- Notebook link: [P0M1_muhammad_rafi_abhinaya.ipynb](P0M1_muhammad_rafi_abhinaya.ipynb)
-- Dashboard Link: [Washington EV Market Dashboard](https://public.tableau.com/app/profile/muhammad.rafi.abhinaya/viz/WashingtonStateEVMarketDashboard/Dashboard1)
-- Dataset link: [EV Population Data](https://www.kaggle.com/datasets/utkarshx27/electric-vehicle-population-data/data).
+## **Contact**
+Feel free to reach out to me if you have anything to discuss!
+- [Email](mailto:mr.abhinaya26@gmail.com)
+- [Linkedin](https://www.linkedin.com/in/rafiabhinaya/)
